@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Lumière - Hospedaje</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 400px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Casa Lumière
+    </header>
+    <div class="container">
+        <h1>Bienvenidos a Casa Lumière</h1>
+        <p>Un lugar acogedor donde la tranquilidad y el confort se encuentran.</p>
+        <div class="gallery">
+            <img src="imagen1.jpg" alt="Vista del hospedaje">
+            <img src="imagen2.jpg" alt="Habitación cómoda">
+            <img src="imagen3.jpg" alt="Área de descanso">
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Casa Lumière | Contacto: info@casalumiere.com
+    </footer>
+</body>
+</html>
